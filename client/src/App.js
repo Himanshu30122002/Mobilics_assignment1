@@ -27,7 +27,7 @@ class App extends React.Component {
       });
   }
 displayuserpost = (posts) => {
-
+    console.log(posts)
     if (!posts || posts.length === 0) {
       return <div>No posts found.</div>;
     }
